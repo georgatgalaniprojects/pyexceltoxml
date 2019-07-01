@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+<testcase name="NAME_OF_TESTCASE">
+    <summary>Description of test case</summary>
+    <preconditions>some pre conditions</preconditions>
+    <execution_type>2</execution_type>
+    <steps>
+        <step>
+            <step_number>1</step_number>
+            <actions>Do a thing</actions>
+            <expectedresults>This is what to expect</expectedresults>
+            <execution_type>2</execution_type>
+        </step>
+        <step>
+            <step_number>2</step_number>
+            <actions>Do another thing</actions>
+            <expectedresults>more expected results</expectedresults>
+            <execution_type>1</execution_type>
+        </step>
+    </steps>
+    <custom_fields>
+        <custom_field>
+            <name>some_cf_name</name>
+            <value>some_cf_value</value>
+        </custom_field>
+    </custom_fields>
+</testcase>
